@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employeeeeeeee</title>
+
+    <style>
+        #form{
+            margin: auto;
+            margin-top: 30px;
+            padding: 10px;
+
+            text-align: center;
+            background-color: aliceblue;
+            width: 50%;
+
+            border-radius: 10px;
+            border: dotted 5px paleturquoise;
+        }
+
+        label{
+            font-size: 24px;
+            text-decoration: underline turquoise 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="form">
+        <form>
+            <label> First Name
+                <input id="fName" type="text" required>
+            </label><br><br>
+
+            <label> Last Name
+                <input id="lName" type="text" required>
+            </label><br><br>
+
+            <label>Age
+                <input id="age" type="number" required>
+            </label><br><br>
+
+            <label>Address
+                <input id="address" type="text" required>
+            </label><br><br>
+
+            <label>City
+                <input id="city" type="text" required>
+            </label><br><br>
+
+            <label>Zip
+                <input id="zip" type="number" required>
+            </label><br><br>
+
+            <label>State
+                <input id="state" type="text" required>
+            </label><br><br>
+
+            <label>Country
+                <input id="country" type="text" required>
+            </label><br><br>
+
+            <label>Job Title
+                <input id="job" type="text" required>
+            </label><br><br>
+
+            <label>Department
+                <input id="dept" type="text" required>
+            </label><br><br>
+
+            <label>Salary
+                <input id="salary" type="text" required>
+            </label><br><br>
+
+            <label>Years at Job
+                <input id="years" type="number" required>
+            </label><br><br>
+
+            <button type="button" onclick="selected()">Button</button>
+        </form>
+    </div>
+
+
+    <div id="employees"></div>
+
+    <script src="employee-v2.js"></script>
+</body>
+
+</html>
